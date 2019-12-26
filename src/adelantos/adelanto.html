@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Electrotech App</title>
+
+    <!-- BOOTSTRAP CDN -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="/colors-text.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+    <a href="/" class="navbar-brand">
+    
+     Adelantos de empleados
+    </a>
+</nav>
+
+
+    <div class="container">
+        <!--EN ESTE CONTENIDO VA A ESTAR LA APLICACIÓN-->
+        <div id="app" class="row pt-5" >
+
+            <div class="cool-md-4 col align-self-center"> 
+                <div class="card">
+                    <div class="card-header">
+                        <h4> Control de Adelantos</h4>
+
+
+
+                    </div>
+                     <!-- ACA CAMBIE PARA JS-->
+                        <form id="adelantos-form" class="card-body">
+
+                        <div class="form-group">
+                            Inserte nombre
+                            <input type="text" id="name" placeholder="Nombre de empleado" 
+                            class="form-control">
+
+                            <div class="form-group">
+                                   Cuándo pidió adelanto
+                                <input type="date" id="fecha" placeholder="Fecha del adelanto" class="form-control"> 
+
+                            <div class="form-group">
+                                  Monto solicitado
+                                <input type="price" id="monto" placeholder="Monto asegurado" class="form-control" >
+
+                            </div>
+
+
+                                
+
+                            </div>
+
+
+
+                        </div>
+
+                        <input type="submit" value="Guardar datos" class="btn btn-primary btn-block">
+                    </form>
+
+                </div>
+
+
+            </div>
+
+            <div class="cool-md-8">
+
+
+<!-- ACA CAMBIE PARA JS-->
+                <div id="lista-adelantos"> </div>
+
+
+                </div>
+
+
+
+        </div>
+
+
+    </div>
+    
+    <script src="/src/adelantos/adelanto.js"> </script>
+</body>
+</html>

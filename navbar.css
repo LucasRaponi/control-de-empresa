@@ -1,0 +1,23 @@
+a {
+    color: aliceblue;
+
+
+}
+
+
+body {
+    background-image: url("lineas-de-alta-tension.jpg");
+    background-color: transparent;
+    
+
+}
+
+
+.navbar-brand {
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+
+

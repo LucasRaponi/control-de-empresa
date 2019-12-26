@@ -1,0 +1,32 @@
+a {
+    color: aliceblue;
+
+
+}
+
+
+body {
+    background-image: url("lineas-de-alta-tension.jpg");
+    background-color: transparent;
+    
+
+}
+
+img {
+
+    filter: grayscale(100%);
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.listadepolizas {
+    font-family: inherit;
+
+}
+
+
+
